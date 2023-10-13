@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:wght@300;400;500;700&display=swap');
+
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(199, 249, 204);
+}
+#container
+{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,200px);
+    gap:20px;
+    padding:20px;
+   
+
+}
+.sticky
+{
+    height:200px;
+    padding: 16px;
+    border:none;
+    outline:none;
+    resize:none;
+    border-radius: 5px;
+    font-size:15px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.btn-add
+{
+    height:200px;
+    border:none;
+    outline: none;
+    color:#fff;
+    font-size: 30px;
+    background-color:#52b788;
+    cursor:pointer;
+}
+.btn-add:hover
+{
+    background-color:#1dd37e ;
+    border-radius: 10px;
+    
+}
